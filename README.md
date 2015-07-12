@@ -1,4 +1,4 @@
 Biography
 =========
 
-A private Biography
+A private Biography.
