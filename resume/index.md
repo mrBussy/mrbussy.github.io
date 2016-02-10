@@ -1,3 +1,15 @@
+---
+layout: page
+title: My Resume 
+tags: [Resume, Rudi, Middel, Rudi Middel]
+modified: 2016-02-10
+comments: true
+image:
+  feature: sample-image-2.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+---
+
 Rudi Middel
 ============
 Email: r.middel@mrbussy.eu
