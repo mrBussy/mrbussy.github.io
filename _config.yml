@@ -1,77 +1,76 @@
-#
-# This file contains configuration flags to customize your site
-#
+# Site wide configuration
 
-# Name of your site (displayed in the header)
-name: mrBussy.eu
-
-# Short bio or description (displayed in the header)
-description: A Person Out Of The Netherlands
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars3.githubusercontent.com/u/1843912?v=3&s=460
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: r.middel@mrbussy.eu
-  facebook: rudi.middel
-  flickr:
-  github: mrBussy
-  instagram:
-  linkedin:
-  pinterest: rmiddel
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: mrBussy
-  stackoverflow: users/3899563/rudi-middel # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: +RudiMiddel # anything in your profile username that comes after plus.google.com/
+title:            mrBussy.eu
+locale:           en_US
+url:		  https://mrbussy.github.io
 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
+# Jekyll configuration
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: http://mrbussy.github.io
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-markdown: redcarpet
-highlighter: pygments
-permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.1.0
-
-# Set the Sass partials directory, as we're using @imports
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
 sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
+  sass_dir: _sass
+  style: compressed
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-sitemap
+  - jekyll-gist
 
-# Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - CNAME
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: Rudi Middel 
+  avatar: https://avatars3.githubusercontent.com/u/1843912?v=3&s=460
+  bio: "A curious person."
+  email: r.middel@mrbussy.eu
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: mrBussy 
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
