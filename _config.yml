@@ -49,7 +49,7 @@ owner:
   twitter: mrBussy #username
   facebook: rudi-middel #username
   google:
-    plus: +rudimiddel #username
+    plus: rudimiddel #username
     analytics:
     verify:
     ad-client:
@@ -57,7 +57,7 @@ owner:
   bing-verify:
   github: mrBussy 
   stackoverflow: 3899563/rudi-middel #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: rudimiddel#username
+  linkedin: rudimiddel #username
   xing: #username
   instagram: #username
   lastfm: #username
