@@ -1,8 +1,11 @@
 # Site wide configuration
-title:	mrBussy.eu
-locale:	en_US
-url:	https://mrbussy.github.io
-url:	http://www.mrbussy.eu
+
+title: "mrBussy.eu"
+locale: "en_US"
+#url:		  http://localhost:4000 #https://mrbussy.github.io
+url:		  https://mrbussy.github.io
+url:      http://www.mrbussy.eu
+
 
 # Jekyll configuration
 
@@ -76,9 +79,7 @@ owner:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+  
 # Exclude these files from your production _site
 exclude:
   - Gemfile
