@@ -4,9 +4,9 @@ title: "mrBussy.eu"
 locale: "en_US"
 #for local development
 #url:		 http://[2001:470:1f15:fed::1:ed17]
-url:		  http://localhost:4000 
+#url:		  http://localhost:4000 
 #url:		  https://mrbussy.github.io
-#url:      http://www.mrbussy.eu
+url:      http://www.mrbussy.eu
 
 # Jekyll configuration
 
