@@ -1,14 +1,19 @@
 ---
-layout: post
-title: Howto run this site on Linux Mint
+title: "Howto run this site on Linux Mint"
 excerpt: "Running this site on Linux Mint for easy writing can be a pain in the ass. This blog will help with this"
-modified: 2016-06-15
-tags: [intro, beginner, jekyll, tutorial, github pages]
-comments: true
-image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+header:
+  image: /assets/images/sample-image-5.jpg
+  caption: "Photo credit: [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
+categories:
+  - Configuration
+  - Blog
+  - Github Pages
+tags:
+  - intro
+  - beginner
+  - jekyll
+  - tutorial
+  - github pages
 ---
 
 <section id="table-of-contents" class="toc">
@@ -29,9 +34,9 @@ bundle exec jekyll serve
 
 # Prerequisite
 * Ruby >= 2.0 ([Tutorial](http://tecadmin.net/install-ruby-on-rails-on-ubuntu/#))
-* gem install bundler 
+* gem install bundler
 * Gemfile
-* gem install 
+* gem install
 
 ## Gemfile
 {% highlight ruby %}

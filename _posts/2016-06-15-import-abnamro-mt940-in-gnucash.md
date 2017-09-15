@@ -1,14 +1,20 @@
 ---
-layout: post
-title: Howto import MT940 files from ABNAMRO into GnuCash
+title: "Howto import MT940 files from ABNAMRO into GnuCash"
 excerpt: "GnuCash has the option to import MT940 files created by a bank. These files contain all transaction information. Currenlty the MT940 file created by ABNAMRO cannot be read by default"
 modified: 2016-06-15
-tags: [intro, beginner, tutorial, GnuCash, ABNAMRO, MT940]
-comments: true
-image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+header:
+  image: /assets/images/sample-image-1.jpg
+  caption: "Photo credit: [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
+categories:
+  - Configuration
+  - Blog
+tags:
+  - intro
+  - beginner
+  - tutorial
+  - GnuCash
+  - ABNAMRO
+  - MT940
 ---
 
 <section id="table-of-contents" class="toc">
@@ -21,13 +27,13 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-# Problem 
+# Problem
 [GnuCash](http://www.gnucash.org) is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 
-Designed to be easy to use, yet powerful and flexible, GnuCash allows you to track bank accounts, stocks, income and expenses. As quick and intuitive to use as a checkbook register, it is based on professional accounting principles to ensure balanced books and accurate reports. 
+Designed to be easy to use, yet powerful and flexible, GnuCash allows you to track bank accounts, stocks, income and expenses. As quick and intuitive to use as a checkbook register, it is based on professional accounting principles to ensure balanced books and accurate reports.
 
 One of the key futures which I use the most is importing bank statements. These can often be downloaded in a MT940 format. This format ensures that the receiving application understands the transaction details. However: One Dutch bank in particular (ABN-AMRO) creates a slightly different version of the MT940 file. This file cannot be interpreted by GnuCash by default. A small tweak is required to make this import possible.
- 
+
 # Tweak
 To make this tweak work the file _swiftmt940.conf_ needs to be updated. This file can be found in the following location:
 
@@ -38,7 +44,7 @@ Open the file and change the line:
 {% highlight c %}
 int skipDocLines="0"
 {% endhighlight %}
-into 
+into
 {% highlight c %}
 int skipDocLines="3"
 {% endhighlight %}

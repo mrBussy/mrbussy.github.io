@@ -1,13 +1,15 @@
-# Site navigation links
+# main links
+main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Resume"
+    url: /resume/
+  - title: "About"
+    url: /about/
 
-- title: Blog
-  url: /posts/
-
-- title: About
-  url: /about/
-
-- title: Resume
-  url: /resume/
-  
-#- title: Theme Setup
-#  url: /theme-setup/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
