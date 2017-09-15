@@ -4,11 +4,9 @@ title: "mrBussy.eu"
 locale: "en_US"
 #for local development
 #url:		 http://[2001:470:1f15:fed::1:ed17]
-#url:		  http://localhost:4000 
+#url:		  http://localhost:4000
 #url:		  https://mrbussy.github.io
 url:      http://www.mrbussy.eu
-
-# Jekyll configuration
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -47,7 +45,7 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Rudi Middel 
+  name: Rudi Middel
   avatar: https://avatars3.githubusercontent.com/u/1843912?v=3&s=460
   bio: "A curious person."
   email: r.middel@mrbussy.eu
@@ -61,7 +59,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: mrBussy 
+  github: mrBussy
   stackoverflow: 3899563/rudi-middel #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: rudimiddel #username
   xing: #username
@@ -77,10 +75,11 @@ owner:
   weibo: #username
   flickr: #username
   codepen: #username
+  keybase: mrbussy
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
-  
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
