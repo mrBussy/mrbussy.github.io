@@ -68,6 +68,21 @@ image:
         </div>
       </li>
       <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="Advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Project</strong>
+          <div class="space-top labels">
+                <span class="label label-keyword">Agile</span>
+                <span class="label label-keyword">SCRUM</span>
+                <span class="label label-keyword">Jira</span>
+                <span class="label label-keyword">MS Project</span>
+                <span class="label label-keyword">Prince 2</span>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
         <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
           <div class="skill-progress intermediate"></div>
         </div>
@@ -86,34 +101,6 @@ image:
         </div>
       </li>
       <li class="card card-nested card-skills">
-        <div class="skill-level" rel="tooltip" title="beginner" data-placement="left">
-          <div class="skill-progress beginner"></div>
-        </div>
-        <div class="skill-info">
-          <strong>JavaScript</strong>
-          <div class="space-top labels">
-                <span class="label label-keyword">Node.js</span>
-                <span class="label label-keyword">Angular.js</span>
-                <span class="label label-keyword">jQuery</span>
-                <span class="label label-keyword">Bootstrap</span>
-                <span class="label label-keyword">React.js</span>
-                <span class="label label-keyword">Backbone.js</span>
-          </div>
-        </div>
-      </li>
-      <li class="card card-nested card-skills">
-        <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
-          <div class="skill-progress intermediate"></div>
-        </div>
-        <div class="skill-info">
-          <strong>Database</strong>
-          <div class="space-top labels">
-                <span class="label label-keyword">MySQL</span>
-                <span class="label label-keyword">MS SQL</span>
-          </div>
-        </div>
-      </li>
-      <li class="card card-nested card-skills">
         <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
           <div class="skill-progress intermediate"></div>
         </div>
@@ -123,6 +110,8 @@ image:
                 <span class="label label-keyword">C</span>
                 <span class="label label-keyword">C++</span>
                 <span class="label label-keyword">Java</span>
+                <span class="label label-keyword">Javascript</span>
+                <span class="label label-keyword">VB.NET</span>
           </div>
         </div>
       </li>
@@ -145,21 +134,6 @@ image:
           </div>
         </div>
       </li>
-      <li class="card card-nested card-skills">
-        <div class="skill-level" rel="tooltip" title="Advanced" data-placement="left">
-          <div class="skill-progress advanced"></div>
-        </div>
-        <div class="skill-info">
-          <strong>Project</strong>
-          <div class="space-top labels">
-                <span class="label label-keyword">Agile</span>
-                <span class="label label-keyword">SCRUM</span>
-                <span class="label label-keyword">Jira</span>
-                <span class="label label-keyword">MS Project</span>
-                <span class="label label-keyword">Prince 2</span>
-          </div>
-        </div>
-      </li>
   </ul>
 </section>
 
@@ -179,10 +153,21 @@ image:
     </header>
 
 <div>
+  <h3><em>Business Technology Analyst</em>,
+    <a href="http://learning.sanoma.com">Sanoma Learning</a>
+    </h3>
+    <span class="tenure">2017-06 — Present</span>
+  <p>As part of multiple SCRUM teams analysing the requirements as defined by the PO. Making sure that the requirements are clear for the development team and ready for refinement. Also making sure that the requirement is the 'real' question that is asked by the PO.</p>
+  <ul>
+    <li>Improving SCRUM process eduBASE team</li>
+    <li>Improving the Sanoma Learning Content Chain</li>
+  </ul>
+</div>
+<div>
   <h3><em>ICT Analist</em>,
     <a href="http://www.malmberg.nl">Malmberg B.V.</a>
     </h3>
-    <span class="tenure">2015-07 — Present</span>
+    <span class="tenure">2015-07 — 2017-05</span>
   <p>As part of multiple scrum teams analysing the requirements as defined by the PO. Making sure that the requirements are clear for the development team and ready for refinement. Also making sure that the requirement is the 'real' question that is asked by the PO.</p>
   <ul>
     <li>Restructuring the DT Scrum process</li>

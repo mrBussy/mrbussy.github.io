@@ -29,8 +29,9 @@ bundle exec jekyll serve
 
 # Prerequisite
 * Ruby >= 2.0 ([Tutorial](http://tecadmin.net/install-ruby-on-rails-on-ubuntu/#))
-* gem install bundler
+* gem install bundler 
 * Gemfile
+* gem install 
 
 ## Gemfile
 {% highlight ruby %}
