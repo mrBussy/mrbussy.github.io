@@ -1,5 +1,5 @@
 # mrBussy.eu
-[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/mrBussy/mrbussy.github.io/blob/master/LICENSE.txt)
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/mrBussy/mrbussy.github.io/blob/master/LICENSE)
 
 welcome to my personal website. To visit the website please visit [mrbussy.eu](mrbussy.eu).
 
