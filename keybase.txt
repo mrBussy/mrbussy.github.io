@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/mrbussy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.mrbussy.eu
+  * I am mrbussy (https://keybase.io/mrbussy) on keybase.
+  * I have a public key ASBu8Ul2M4_-9LhLJiWhV15P3704Q1KQqMjNd9Mq6MRWfAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010138fbe2f28da49ce6bbb02f9adaea15af34f96e88ca7a12fe4ebcaf6513638fb00a",
+      "host": "keybase.io",
+      "kid": "01206ef14976338ffef4b84b2625a1575e4fdfbd38435290a8c8cd77d32ae8c4567c0a",
+      "uid": "2baf7b74f1e47a31296db21a9339da19",
+      "username": "mrbussy"
+    },
+    "merkle_root": {
+      "ctime": 1507100253,
+      "hash": "996961622fbdf01d4c00625d1c8644b04b91488c4a02d536bdf6861b83cbdc47cc78f43b536503ab307dc8a782f4a1862021fdc6a19499eaeffa53532f4898f7",
+      "hash_meta": "1ef228add0d097fdb219a98c42642c150b3f266feb735a53917b738fbb192ab2",
+      "seqno": 1493338
+    },
+    "service": {
+      "hostname": "www.mrbussy.eu",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.31"
+  },
+  "ctime": 1507100272,
+  "expire_in": 504576000,
+  "prev": "a3ed13c5eedc94ebe2e6333311c5395f153521330923d146a2942379fe1e3177",
+  "seqno": 25,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbvFJdjOP/vS4SyYloVdeT9+9OENSkKjIzXfTKujEVnwKp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMzhmYmUyZjI4ZGE0OWNlNmJiYjAyZjlhZGFlYTE1YWYzNGY5NmU4OGNhN2ExMmZlNGViY2FmNjUxMzYzOGZiMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNmVmMTQ5NzYzMzhmZmVmNGI4NGIyNjI1YTE1NzVlNGZkZmJkMzg0MzUyOTBhOGM4Y2Q3N2QzMmFlOGM0NTY3YzBhIiwidWlkIjoiMmJhZjdiNzRmMWU0N2EzMTI5NmRiMjFhOTMzOWRhMTkiLCJ1c2VybmFtZSI6Im1yYnVzc3kifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDcxMDAyNTMsImhhc2giOiI5OTY5NjE2MjJmYmRmMDFkNGMwMDYyNWQxYzg2NDRiMDRiOTE0ODhjNGEwMmQ1MzZiZGY2ODYxYjgzY2JkYzQ3Y2M3OGY0M2I1MzY1MDNhYjMwN2RjOGE3ODJmNGExODYyMDIxZmRjNmExOTQ5OWVhZWZmYTUzNTMyZjQ4OThmNyIsImhhc2hfbWV0YSI6IjFlZjIyOGFkZDBkMDk3ZmRiMjE5YTk4YzQyNjQyYzE1MGIzZjI2NmZlYjczNWE1MzkxN2I3MzhmYmIxOTJhYjIiLCJzZXFubyI6MTQ5MzMzOH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cubXJidXNzeS5ldSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzEifSwiY3RpbWUiOjE1MDcxMDAyNzIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiYTNlZDEzYzVlZWRjOTRlYmUyZTYzMzMzMTFjNTM5NWYxNTM1MjEzMzA5MjNkMTQ2YTI5NDIzNzlmZTFlMzE3NyIsInNlcW5vIjoyNSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED2P5e779Om9lI5hatlenUEP7txG13TQlnc5HtKteEeRbf4ishg6N8h1CbM5tvPZSXIK6ODXb2mTN8HivBMRusIqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgCGTIPDJzC5z16wUbWOYRj6njkb9dD3LCy+PuoWwgELmjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mrbussy
+
+==================================================================
