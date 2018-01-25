@@ -256,4 +256,5 @@ defaults:
       layout: single
       author_profile: true
 
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
