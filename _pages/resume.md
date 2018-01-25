@@ -4,10 +4,9 @@ permalink: /resume/
 tags: [Resume, Rudi Middel]
 modified: 2018-01-25
 comments: false
-image:
-    feature: /assets/images/resume/desk.jpg
-    credit: Jeffrey Betts
-    creditlink: http://mmt.li/
+header:
+  image: /assets/images/resume/desk.jpg
+  caption: "photo credit [Jeffrey Betts)(http://mmt.li/)
 ---
 
   <main id="main">
