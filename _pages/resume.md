@@ -6,7 +6,7 @@ modified: 2018-01-25
 comments: false
 header:
   image: /assets/images/resume/desk.jpg
-  caption: "photo credit [Jeffrey Betts)(http://mmt.li/)
+  caption: "photo credit [Jeffrey Betts)(http://mmt.li/)"
 ---
 
   <main id="main">
