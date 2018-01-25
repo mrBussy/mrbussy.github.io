@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume - Rudi Middel
--permalink /resume/
+permalink: /resume/
 tags: [Resume, Rudi Middel]
 modified: 2018-01-25
 comments: false
