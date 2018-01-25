@@ -1,24 +1,24 @@
 ---
+layout: page
 title: Resume - Rudi Middel
-permalink: /resume/
-tags:
-  - Resume
-  - Rudi Middel
+tags: [Resume, Rudi Middel]
 modified: 2016-02-10
-header:
-  image: /assets/images/resume/desk.jpg
-  caption: "photo credit: [jeffrey betts](http://mmt.li/)"
+comments: true
+image:
+    feature: resume/desk.jpg
+    credit: Jeffrey Betts 
+    creditlink: http://mmt.li/ 
 ---
 
-  <main id="main">
+  <main id="main"> 
       <div id="container">
       <header>
 
 
         <div id="contact">
-
-
-
+          
+          
+          
         </div>
       </header>
 
@@ -333,7 +333,7 @@ A basic education program focused on the use of Software Design, Network Control
     <div>
     <h3><em>Travel</em></h3>
     <span class="tenure"></span>
-
+    
     </div>
 </section>
 
