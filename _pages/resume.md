@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Resume - Rudi Middel
 permalink: /resume/
 tags: [Resume, Rudi Middel]
