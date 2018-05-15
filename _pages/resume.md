@@ -1,12 +1,14 @@
 ---
+layout: page
 title: Resume - Rudi Middel
 permalink: /resume/
 tags: [Resume, Rudi Middel]
-modified: 2018-01-25
-comments: false
-header:
-  image: /assets/images/resume/desk.jpg
-  caption: "photo credit [Jeffrey Betts)(http://mmt.li/)"
+modified: 2018-05-18
+comments: true
+image:
+    feature: resume/desk.jpg
+    credit: Jeffrey Betts
+    creditlink: http://mmt.li/
 ---
 
   <main id="main">
@@ -15,15 +17,22 @@ header:
 
 
         <div id="contact">
-
-
-
+          <div class="email"><a href="mailto:r.middel@mrbussy.eu">r.middel@mrbussy.eu</a></div>
+          <div class="phone">+31 6 53549258</div>
+          <div class="website"><a href="http://www.mrbussy.eu">http://www.mrbussy.eu</a></div>
         </div>
       </header>
 
 
 
 
+<hr>
+<section id="summary">
+    <header>
+      <span class="fa fa-lg fa-info"></span>  <h2>info</h2>
+    </header>
+    Curious, having fun and enjoying life are my core values. Whether it concerns my personal or my professional life. As a father, I see the joy in my children every dag. In my work the joy translates to working hard and completing my projects. It does not matter if this is to solve complex issues, creating a report or starting something new and unknown. I will perform the tasks with undivided attention and dedication. Leaving no moment untouched to celebrate. As a Burgundian I know how to appreciate good food and company.
+</section>
 
 
 
@@ -128,7 +137,7 @@ header:
                 <span class="label label-keyword">Azure</span>
                 <span class="label label-keyword">Dropbox</span>
                 <span class="label label-keyword">Google Drive</span>
-                <span class="label label-keyword">SyncThing</span>
+                <span class="label label-keyword">Syncthing</span>
                 <span class="label label-keyword">MS Office 365</span>
           </div>
         </div>
@@ -160,6 +169,7 @@ header:
   <ul>
     <li>Improving SCRUM process eduBASE team</li>
     <li>Improving the Sanoma Learning Content Chain</li>
+    <li>Creating the Content Chain Printing solution</li>
   </ul>
 </div>
 <div>
@@ -171,7 +181,7 @@ header:
   <ul>
     <li>Restructuring the DT Scrum process</li>
     <li>Starting up the Malmberg Content Chain Requirement process</li>
-    <li>Untangling multiple dataflows en creating structure in the data</li>
+    <li>Untangling multiple data flows en creating structure in the data</li>
     <li>Separating presentation from the input of content</li>
   </ul>
 </div>
@@ -191,9 +201,9 @@ header:
     <a href="http://www.klm.com">KLM Royal Dutch Airlines</a>
     </h3>
     <span class="tenure">2011-07 — 2014-04</span>
-  <p>Investigate processes, gathering requirements and leading project are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request managment while working together with the Application Developers or IT specialists capability (mainly based in Toulouse, France), can be a challenge. Especially in a complex project like CDM@AMS where multiple companies and stakeholders work together.</p>
+  <p>Investigate processes, gathering requirements and leading project are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request management while working together with the Application Developers or IT specialists capability (mainly based in Toulouse, France), can be a challenge. Especially in a complex project like CDM@AMS where multiple companies and stakeholders work together.</p>
   <ul>
-    <li>Implementation & maintaining Millord Sirocco for KLM</li>
+    <li>Implementation & maintaining Milord Sirocco for KLM</li>
     <li>CMD@AMS implementation</li>
   </ul>
 </div>
@@ -202,9 +212,9 @@ header:
     <a href="http://www.klm.com">KLM Cityhopper</a>
     </h3>
     <span class="tenure">2008-09 — 2011-06</span>
-  <p>Investigate processes, gathering requirements and leading projects are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request managment while working together with the Application Developers or IT specialists capability, can be a challenge. Mainly because they have different wishes and expectations. The biggest and most rewarding project I was involved in, was the development and standardization of the processes in our department Information Management. This transformation of an ad hoc organization to a more structured and solid department is a change I’m glad to have been part of.</p>
+  <p>Investigate processes, gathering requirements and leading projects are the key features of my job. Maintaining a good and healthy relationship with the process/business owner on request management while working together with the Application Developers or IT specialists capability, can be a challenge. Mainly because they have different wishes and expectations. The biggest and most rewarding project I was involved in, was the development and standardization of the processes in our department Information Management. This transformation of an ad-hoc organization to a more structured and solid department is a change I’m glad to have been part of.</p>
   <ul>
-    <li>Developing and standarization of processes</li>
+    <li>Developing and standardization of processes</li>
     <li>Implementation new Labor Agreement</li>
     <li>Implementation new aircraft type</li>
   </ul>
@@ -272,18 +282,26 @@ header:
     </header>
 <div>
 <h3>
+Udemy.com
+</h3>
+
+<span class="keywords">Designing Gamification Level 1 (Basic) + Certification Designing Gamification Level 2 (Intermediate) + Certification </span>
+Learn the basics of gamification and engagement science, and how this powerful new design trend will affect your business from a practical, non-academic perspective.
+</div>
+<div>
+<h3>
 Fontys Hogenscholen
 </h3>
 <span class="tenure">2000-01 — 2004-08</span>
 | <span class="keywords">Software Engineering </span>
-I attended Higher Informatics at the Fontys University of Applied Sience. This study focusses on software development and project management.
+I attended Higher Informatics at the Fontys University of Applied Science. This study focusses on software development and project management.
 </div>
 <div>
 <h3>
 Technisch Lyceum Eindhoven
 </h3>
 <span class="tenure">1996-08 — 2000-01</span>
-A basic education program focused on the use of Software Design, Network Control and Software itself (i.e. Autocat). There is also a curriculum based on electronics. During this program I worked on a project called The BitSim. This 8051 micro-controller that can be used in the classroom to train on Embedded Software design. I was responsable for creating a Basic parser.
+A basic education program focused on the use of Software Design, Network Control and Software itself (i.e. AutoCAD). There is also a curriculum based on electronics. During this program I worked on a project called The BitSim. This 8051 micro-controller that can be used in the classroom to train on Embedded Software design. I was responsible for creating a Basic parser.
 </div>
 </section>
 
@@ -315,7 +333,7 @@ A basic education program focused on the use of Software Design, Network Control
     <h3><em>Chairman</em>,
       <a href="http://gewittoitnoitnie.nl">Vriendenkring Ge Wit &#x27;T Oit Noit Nie</a>
     </h3>
-    <span class="tenure">2015-03 — Present</span>
+    <span class="tenure">2015-03 — 2015-05</span>
     <p>Since 2015 I've been chairman of Ge Wit 't Oit Noit Nie. This organisation creates a rolling theater each year in August as part of an event called Brabantsedag.</p>
     </div>
 </section>
