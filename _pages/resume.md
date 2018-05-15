@@ -331,7 +331,7 @@ A basic education program focused on the use of Software Design, Network Control
     <h3><em>Chairman</em>,
       <a href="http://gewittoitnoitnie.nl">Vriendenkring Ge Wit &#x27;T Oit Noit Nie</a>
     </h3>
-    <span class="tenure">2015-03 — 2015-05</span>
+    <span class="tenure">2015-03 — 2018-05</span>
     <p>Since 2015 I've been chairman of Ge Wit 't Oit Noit Nie. This organisation creates a rolling theater each year in August as part of an event called Brabantsedag.</p>
     </div>
 </section>
