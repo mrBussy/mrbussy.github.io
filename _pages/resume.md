@@ -1,14 +1,12 @@
 ---
-layout: page
 title: Resume - Rudi Middel
 permalink: /resume/
 tags: [Resume, Rudi Middel]
 modified: 2018-05-18
 comments: true
-image:
-    feature: resume/desk.jpg
-    credit: Jeffrey Betts
-    creditlink: http://mmt.li/
+header:
+  image: /assets/images/resume/desk.jpg
+  caption: "photo credit [Jeffrey Betts)(http://mmt.li/)
 ---
 
   <main id="main">
