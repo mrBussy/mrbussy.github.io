@@ -2,7 +2,7 @@
 title: "Resume - Rudi Middel"
 tags: [Resume, Rudi Middel]
 permalink: /resume/
-last_modified_at: 2018-05-18T14:28:13-05:00
+modified: 2016-02-10
 comments: true
 header:
   image: /assets/images/resume/desk.jpg
@@ -278,14 +278,6 @@ header:
     <header>
       <span class="fa fa-lg fa-mortar-board"></span>  <h2>education</h2>
     </header>
-<div>
-<h3>
-Udemy.com
-</h3>
-
-<span class="keywords">Designing Gamification Level 1 (Basic) + Certification Designing Gamification Level 2 (Intermediate) + Certification </span>
-Learn the basics of gamification and engagement science, and how this powerful new design trend will affect your business from a practical, non-academic perspective.
-</div>
 <div>
 <h3>
 Fontys Hogenscholen
