@@ -5,8 +5,8 @@ permalink: /resume/
 modified: 2016-02-10
 comments: true
 header:
-  image: /assets/images/resume/desk.jpg
-  caption: "photo credit [Jeffrey Betts](http://mmt.li/)"
+    image: /assets/images/resume/desk.jpg
+    caption: "photo credit [Jeffrey Betts](http://mmt.li/)"
 ---
 
   <main id="main">
@@ -159,10 +159,17 @@ header:
     </header>
 
 <div>
+  <h3><em>Junior IT System Solution Architect</em>,
+    <a href="http://learning.sanoma.com">Sanoma Learning</a>
+    </h3>
+    <span class="tenure">2018-10 — Present</span>
+  <p>Responsible for creating the technological vision and solutions for a wide variety of enterprise applications that are shared across the five countries (Finland, Sweden, Belgium, Poland and The Netherlands) that Sanoma Learning is operating in. Together with a team of specialists I try to keep an good overview of all the solutions being implemented and how they will fit the vision of the company.</p>
+</div>
+<div>
   <h3><em>Business Technology Analyst</em>,
     <a href="http://learning.sanoma.com">Sanoma Learning</a>
     </h3>
-    <span class="tenure">2017-06 — Present</span>
+    <span class="tenure">2017-06 — 2018-09</span>
   <p>As part of multiple SCRUM teams analysing the requirements as defined by the PO. Making sure that the requirements are clear for the development team and ready for refinement. Also making sure that the requirement is the 'real' question that is asked by the PO.</p>
   <ul>
     <li>Improving SCRUM process eduBASE team</li>
