@@ -39,6 +39,7 @@ To make this tweak work the file _swiftmt940.conf_ needs to be updated. This fil
 
 * Windows: C:\Program Files\gnucash\share\aqbanking\imexporters\swift\profiles
 * Linux: /usr/share/aqbanking/imexporters/swift/profiles/
+* Mac OS: /Applications/Gnucash.app/Contents/Resources/share/aqbanking/imexporters/swift/profiles
 
 Open the file and change the line:
 {% highlight c %}
@@ -48,4 +49,6 @@ into
 {% highlight c %}
 int skipDocLines="3"
 {% endhighlight %}
-end your done. The import of the file should work now.
+and your done. The import of the file should work now.
+
+**UPDATE** May 24th, 2019: Added path for Mac OS
