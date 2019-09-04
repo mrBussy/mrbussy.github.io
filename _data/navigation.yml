@@ -4,6 +4,8 @@ main:
     url: /blog/
   - title: "Resume"
     url: /resume/
+  - title: "Repository"
+    url: https://mrbussy.gitbook.io/architecture-repository/ 
   - title: "About"
     url: /about/
 
