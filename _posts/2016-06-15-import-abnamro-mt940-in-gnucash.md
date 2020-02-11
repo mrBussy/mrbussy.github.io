@@ -3,8 +3,8 @@ title: "Howto import MT940 files from ABNAMRO into GnuCash"
 excerpt: "GnuCash has the option to import MT940 files created by a bank. These files contain all transaction information. Currenlty the MT940 file created by ABNAMRO cannot be read by default"
 modified: 2016-06-15
 header:
-  image: /assets/images/sample-image-1.jpg
-  caption: "Photo credit: [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
+  image: /assets/images/posts/people-woman-coffee-meeting.jpg
+  caption: "Photo credit: [Eric Balley](https://www.pexels.com/photo/people-coffee-meeting-team-7096/)"
 categories:
   - Configuration
   - Blog

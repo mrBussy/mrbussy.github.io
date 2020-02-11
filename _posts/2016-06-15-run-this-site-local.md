@@ -2,8 +2,8 @@
 title: "Howto run this site on Linux Mint"
 excerpt: "Running this site on Linux Mint for easy writing can be a pain in the ass. This blog will help with this"
 header:
-  image: /assets/images/sample-image-5.jpg
-  caption: "Photo credit: [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
+  image: /assets/images/posts/people-woman-coffee-meeting.jpg
+  caption: "Photo credit: [Eric Balley](https://www.pexels.com/photo/people-coffee-meeting-team-7096/)"
 categories:
   - Configuration
   - Blog
