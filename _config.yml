@@ -257,4 +257,4 @@ defaults:
       author_profile: true
 
 #theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.18.0" 
