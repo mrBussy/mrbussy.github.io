@@ -1,7 +1,10 @@
-source "https://rubygems.org"
-gemspec
+# frozen_string_literal: true
 
-gem 'faraday', '~> 0.17.3'
-gem "github-pages", group: :jekyll_plugins
-gem 'bigdecimal'
-gem 'json'
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+
+gem "jekyll", "= 3.9.0"
+gem "github-pages", "~> 209", group: :jekyll_plugins
