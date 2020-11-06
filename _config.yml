@@ -1,3 +1,7 @@
+# Site config
+title: A day in my life 
+description: All kind of interesting stuff will be published here 
+
 # Serving
 # detach              : false
 # port                : 4000
@@ -7,3 +11,4 @@ host                : 172.17.199.134
 
 # Jekyll configuration
 markdown: kramdown
+theme: jekyll-theme-leap-day
