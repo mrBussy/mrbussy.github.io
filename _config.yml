@@ -1,13 +1,18 @@
 # Site config
 title                    : "mrbussy.eu" 
+email                    : "r.middel@mrbussy.eu"
 description              : "An amazing website" 
 locale                   : "en"
 title                    : "mrBussy.eu"
+title_description        : "My first application" 
+title_image              : "https://secure.gravatar.com/avatar/4a2fe6cac1c56c17677908f576de80ad?s=500&d=mm"
 title_separator          : "-"
 name                     : "Rudi Middel"
 url                      : https://www.mrbussy.eu # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : mrBussy/mrbussy.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Serving
 # detach              : false
@@ -19,6 +24,10 @@ host                : 0.0.0.0
 # Jekyll configuration
 markdown: kramdown
 #theme: jekyll-theme-leap-day
+
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 
 source: .
 destination: ./_site
