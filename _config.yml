@@ -1,14 +1,43 @@
 # Site config
-title: A day in my life 
-description: All kind of interesting stuff will be published here 
+title                    : "mrbussy.eu" 
+description              : "An amazing website" 
+locale                   : "en"
+title                    : "mrBussy.eu"
+title_separator          : "-"
+name                     : "Rudi Middel"
+url                      : https://www.mrbussy.eu # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : mrBussy/mrbussy.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
 # Serving
 # detach              : false
 # port                : 4000
-host                : 172.17.199.134
+host                : 0.0.0.0 
 # baseurl             : "" # does not include hostname
 # show_dir_listing    : false
 
 # Jekyll configuration
 markdown: kramdown
-theme: jekyll-theme-leap-day
+#theme: jekyll-theme-leap-day
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+plugins:
+    - jekyll-paginate 
+    - jekyll-sitemap
+        #  - jekyll-gist
+        #  - jekyll-feed
+        #  - jemoji
+
+
