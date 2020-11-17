@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mrbussy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.mrbussy.eu
+  * I am mrbussy (https://keybase.io/mrbussy) on keybase.
+  * I have a public key ASDRbFMi7qFeiuFtFBvWM4ctc6OYHF1uvhsYMs_Mbmzjtgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204bd6cdb4bdb2d8823f941580e9514c77b8832a762f99fe3c2bd34f5a4190967c0a",
+      "host": "keybase.io",
+      "kid": "0120d16c5322eea15e8ae16d141bd633872d73a3981c5d6ebe1b1832cfcc6e6ce3b60a",
+      "uid": "2baf7b74f1e47a31296db21a9339da19",
+      "username": "mrbussy"
+    },
+    "merkle_root": {
+      "ctime": 1572510068,
+      "hash": "9e42763e88325a550f34b7bb2f7e1470027a0fa0f854236633a77dc4186fc290b0b00f5426cea7e1d90562ade9bcdd78b6d8ad02a6eab5dd5583308b831f7ebf",
+      "hash_meta": "a22c1e37bd7a8626526482d83ed84df17beace70bae8c80430f5c9aa5c4ac265",
+      "seqno": 8550871
+    },
+    "service": {
+      "entropy": "3LDmCBZbS4vRf28PNwj982rV",
+      "hostname": "www.mrbussy.eu",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1572510102,
+  "expire_in": 504576000,
+  "prev": "a5cd6a9cab9e5c05fc07624a86d247f51cd1e37d3686f053624537248da03a80",
+  "seqno": 44,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0WxTIu6hXorhbRQb1jOHLXOjmBxdbr4bGDLPzG5s47YKp3BheWxvYWTESpcCLMQgpc1qnKueXAX8B2JKhtJH9RzR4302hvBTYkU3JI2gOoDEIAEXa4YTcupcZfsnhmHOwTc/Ru7WFN98cMdV/P32ZClkAgHCo3NpZ8RARqorDAgdRkMaZebSMhcoDJ5FAYx3iV5Me5WuHuMppMaf/QQDY+WSn3kY5kdTx3x1KKCKkd3J+AaTfS9iKTr8B6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIORLKqnPOSzDdTc7Pqe7sIl83RXfNjjo4dH0yC+NNvB8o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mrbussy
+
+==================================================================
