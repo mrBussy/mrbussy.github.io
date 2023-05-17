@@ -1,0 +1,14 @@
+entries:
+    
+  - title: Thoughts
+    post_list:
+      limit: 5
+  - title: Post archive
+    url: /archive
+
+  - title: Info
+    entries:
+      - title: About
+        url: /about
+      - title: Feed
+        url: /feed.xml

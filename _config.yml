@@ -1,57 +1,50 @@
-# Site config
-title                    : "mrbussy.eu" 
-email                    : "r.middel@mrbussy.eu"
-description              : "An amazing website" 
-locale                   : "en"
-title                    : "mrBussy.eu"
-title_description        : "An amazing website" 
-title_image              : "https://secure.gravatar.com/avatar/4a2fe6cac1c56c17677908f576de80ad?s=500&d=mm"
-title_separator          : "-"
-name                     : "Rudi Middel"
-url                      : https://www.mrbussy.eu # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : mrBussy/mrbussy.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-footer_left              : "Theme made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right             : "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Serving
-# detach                   : false
-# port                     : 4000
-host                     : 0.0.0.0 
-
-# Social usernames/URLs
-twitter_username: mrbussy
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: My simple blogging site
+email: blog@mrbussy.eu
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.mrbussy.eu" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mrbussy
-instagram_username: mrbussy 
-reddit_username: rmiddel
-linkedin_link: https://www.linkedin.com/in/rudimiddel/
-stackoverflow_link: https://stackoverflow.com/users/3899563/rudi-middel
 
-# Jekyll configuration
+# Build settings
 markdown: kramdown
+#theme: minima
+theme: no-style-please
 
-kramdown:
-    input: GFM
-    syntax_highlighter: rouge
+theme_config:
+  appearance: "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
 
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 3
-paginate_path: /page/:num/
-
-defaults:
-    -
-        scope:
-            path: ""
-            type: "posts"
-        values:
-            layout: "post"
 plugins:
-    - jekyll-paginate 
-    - jekyll-sitemap
-        #  - jekyll-gist
-        #  - jekyll-feed
-        #  - jemoji
+  - jekyll-feed
 
-
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
