@@ -27,6 +27,7 @@ markdown: GFM #kramdown
 #theme: minima
 #theme: no-style-please
 theme: jekyll-theme-console
+remote_theme: jekyll-theme-console
 
 highlighter: rouge
 
