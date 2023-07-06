@@ -6,6 +6,15 @@ entries:
   - title: Post archive
     url: /archive
 
+  - title: Navigational support
+    entries:
+      - title: Search the site
+        url: /search
+      - title: Categories
+        url: /categories
+      - title: Tags
+        url: /tags
+        
   - title: Info
     entries:
       - title: About

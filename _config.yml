@@ -16,23 +16,40 @@
 title: My simple blogging site
 email: blog@mrbussy.eu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+     This site will contain all kind of random thoughts. I will try to categorise them to keep some kind of order.
+     I also will try to regular post some updates, but I find it hard to keep track on the things to post. And finally, I will try to use a good git flow (which I just realised I do not for the start of this site :()
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.mrbussy.eu" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mrbussy
 
 # Build settings
-markdown: kramdown
+markdown: GFM #kramdown
 #theme: minima
-theme: no-style-please
+#theme: no-style-please
+theme: jekyll-theme-console
 
-theme_config:
-  appearance: "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+highlighter: rouge
+
+#theme_config:
+#  appearance: "auto"
+#  back_home_text: ".." # customize text for homepage link in post layout
+#  date_format: "%Y-%m-%d" # customize how date is formatted
+#  show_description: false # show blog description in home page
+
+#https://github.com/b2a3e8/jekyll-theme-console/blob/master/404.md
+# https://github.com/b2a3e8/jekyll-theme-console
+header_pages:
+  - index.md
+  - about.md
+  - archive.md
+  - search.md
+
+style: dark # dark (default), light or hacker
+listen_for_clients_preferred_style: true # false (default) or true
+
+footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
+
+google_analytics: UA-NNNNNNNN-N
 
 plugins:
   - jekyll-feed
