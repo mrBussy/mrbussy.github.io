@@ -1,21 +1,21 @@
 
 # Table of Contents
 
-1.  [Inspiration for blogging](#org9fab272)
-2.  [Why it this inspirational](#orgca08564)
+1.  [Inspiration for blogging](#org8d3a588)
+2.  [Why it this inspirational](#org0d6a2ef)
 
 
 
-<a id="org9fab272"></a>
+<a id="org8d3a588"></a>
 
 # Inspiration for blogging
 
-Sometimes you come across small concepts that trigger a world of inspiration. Today was such a day when I saw the video's of [C'est la Z](https://cestlaz.github.io/stories/emacs/). He shared some concepts of `emacs`. Not only where they 
+Sometimes you come across small concepts that trigger a world of inspiration. Today was such a day when I saw the video's of [C'est la Z](https://cestlaz.github.io/stories/emacs/). He shared some concepts of `emacs`. Not only where they inspirational but also functional.  
 
 In one of the video's the [irreal](https://irreal.org/blog/?p=11433) site was mentioned. Here you can find a lot of information around `emacs`.
 
 
-<a id="orgca08564"></a>
+<a id="org0d6a2ef"></a>
 
 # Why it this inspirational
 
