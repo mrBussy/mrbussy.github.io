@@ -1,39 +1,39 @@
 
 # Table of Contents
 
-1.  [Missing functionality](#orgbc3635a)
-2.  [Installation](#org2bca146)
+1.  [Missing functionality](#org4df617d)
+2.  [Installation](#org39ee44e)
 
 
 
-<a id="orgbc3635a"></a>
+<a id="org4df617d"></a>
 
 # Missing functionality
 
-When writing large text, sometimes you just want to annotate parts of the text to indicate something. Such as extra text to add, paragraph needs some rework or just something else. In the past, I had `org-marginalia` loaded but I kind of forgot about it. When I wanted to use it today, I found out that it did not work.
+When writing large text, sometimes you just want to annotate parts of the text to indicate something. Such as extra text to add, paragraph needs some rework or just something else. In the past, I had `org-marginalia` loaded but I kind of forgot about it. When I wanted to use it today, I found out that it did not work.  
 
-Some simple search revealed to me that the package was renamed to [org-remark](https://github.com/nobiot/org-remark). So just loading it with the right name would solve the issue. Combined with some simple bindings made it complete and ready again for usage.
+Some simple search revealed to me that the package was renamed to [org-remark](https://github.com/nobiot/org-remark). So just loading it with the right name would solve the issue. Combined with some simple bindings made it complete and ready again for usage.  
 
 
-<a id="org2bca146"></a>
+<a id="org39ee44e"></a>
 
 # Installation
 
-To install `org-remark` I use the following setup. This is a strictly default setup bound to some custom shortcuts.
+To install `org-remark` I use the following setup. This is a strictly default setup bound to some custom shortcuts.  
 
-{% highlight lisp %}
+```emacs-lisp
+(use-package org-remark
+  :after org
+  :config (org-remark-global-tracking-mode +1)
+  :bind (
+       ;; -bind `org-remark-mark' to global-map so that you can call it
+       ;; globally before the library is loaded.
+         ("C-c r m" . org-remark-mark)
+         ("C-c r o" . org-remark-open)
+         ("C-c r ]" . org-remark-view-next)
+         ("C-c r [" . org-remark-view-prev)
+         ("C-c r r" . org-remark-remove))
+  )
 
-    (use-package org-remark
-      :after org
-      :config (org-remark-global-tracking-mode +1)
-      :bind (
-           ;; -bind `org-remark-mark' to global-map so that you can call it
-           ;; globally before the library is loaded.
-             ("C-c r m" . org-remark-mark)
-             ("C-c r o" . org-remark-open)
-             ("C-c r ]" . org-remark-view-next)
-             ("C-c r [" . org-remark-view-prev)
-             ("C-c r r" . org-remark-remove))
-      )
+```
 
-{% endhighlight %}

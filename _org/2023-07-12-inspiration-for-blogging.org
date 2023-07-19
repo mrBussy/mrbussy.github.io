@@ -1,4 +1,4 @@
-#+title: Inspiration for blogging
+ #+title: Inspiration for blogging
 #+filetags: :inspiration:blogging:emacs:
 
 * Inspiration for blogging

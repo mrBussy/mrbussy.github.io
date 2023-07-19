@@ -1,12 +1,12 @@
 
 # Table of Contents
 
-1.  [Inspiration for blogging](#org8d3a588)
-2.  [Why it this inspirational](#org0d6a2ef)
+1.  [Inspiration for blogging](#org70d7e25)
+2.  [Why it this inspirational](#org5e71f2a)
 
 
 
-<a id="org8d3a588"></a>
+<a id="org70d7e25"></a>
 
 # Inspiration for blogging
 
@@ -15,7 +15,7 @@ Sometimes you come across small concepts that trigger a world of inspiration. To
 In one of the video's the [irreal](https://irreal.org/blog/?p=11433) site was mentioned. Here you can find a lot of information around `emacs`.
 
 
-<a id="org0d6a2ef"></a>
+<a id="org5e71f2a"></a>
 
 # Why it this inspirational
 

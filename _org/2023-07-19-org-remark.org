@@ -1,5 +1,6 @@
 #+title: I found org-remark again
 #+filetags: :emacs:editing:notetaking:remark:marginalia:
+#+options: *:t -:t \n:t f:t tags:t
 
 * Missing functionality
 When writing large text, sometimes you just want to annotate parts of the text to indicate something. Such as extra text to add, paragraph needs some rework or just something else. In the past, I had =org-marginalia= loaded but I kind of forgot about it. When I wanted to use it today, I found out that it did not work.
@@ -9,7 +10,7 @@ Some simple search revealed to me that the package was renamed to [[https://gith
 * Installation
 To install =org-remark= I use the following setup. This is a strictly default setup bound to some custom shortcuts.
 
-#+begin_src emacs-lisp
+#+begin_src emacs-lisp 
   (use-package org-remark
     :after org
     :config (org-remark-global-tracking-mode +1)

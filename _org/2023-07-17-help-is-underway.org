@@ -13,7 +13,6 @@ Today I stumbled on a small package called [[https://github.com/Wilfred/helpful]
   ([remap describe-key]      . helpful-key))
 #+end_src
 
-
 Where I:
 - use =use-package= to install a package
 - map the helpful command to the different ~describe~ functions
