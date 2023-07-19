@@ -11,12 +11,14 @@
 
 Today I stumbled on a small package called [helpful](https://github.com/Wilfred/helpful). This package will extend the `emacs` help system. It provides a better way of displaying the help and is installed really quick. Just add the following lines:
 
+{% highlight lisp %}
     (use-package helpful
       :bind
       ([remap describe-function] . helpful-callable)
       ([remap describe-variable] . helpful-variable)
       ([remap describe-command]  . helpful-command)
       ([remap describe-key]      . helpful-key))
+{% endhighlight %}
 
 Where I:
 
