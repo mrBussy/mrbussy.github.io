@@ -19,7 +19,7 @@ channel."
        (defun rm/publish-org-to-md (plist filename pub-dir)
 	 "Publish an org file to markdown.
     See `export' to the list of arguments."
-	 (rm/publish-org-to 'jekyll-markdown filename ".md" plist pub-dir))
+	 (rm/publish-org-to 'jekyll-markdown filename "md" plist pub-dir))
        
        (defun rm/publish-org-to (backend filename extension plist &optional pub-dir)
     "Publish an Org file to a specified back-end.
@@ -42,7 +42,7 @@ channel."
       (unwind-protect
           (with-current-buffer work-buffer
             (let ((output (org-export-output-file-name extension nil pub-dir)))
-	      (message "[rm]: %" filename extension backend)
+	      
               (org-export-to-file backend output
                 nil nil nil (plist-get plist :body-only)
                 ;; Add `org-publish--store-crossrefs' and
@@ -70,7 +70,7 @@ channel."
                                      :publishing-directory "~/dev/mrbussy.github.io/_posts/"
                                      :recursive t
                                      ;;:publishing-function rm/export-jekyll-org-posts
-                                     :publishing-function rm/publish-org-to-md
+                                     :pubishing-function rm/publish-org-to-md
                                      ;;:headline-levels 4
                                      ;;:body-only t
                                      )))

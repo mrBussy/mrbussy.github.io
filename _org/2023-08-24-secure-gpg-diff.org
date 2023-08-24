@@ -1,0 +1,18 @@
+#+title: Perform git diff on GPG files
+#+filetags: :git:diff:gpg:pgp:secure:compare:
+#+options: *:t -:t \n:t f:t tags:t
+
+* Solution and problem
+I use GPG encrypted files within my ~ORG~ setup. However, if I save a ~.gpg~ file without significant changes, or when I only added information, GIT cannot detect this. There is however an option to overrule this:
+
+#+begin_src shell :exports code
+echo "*.gpg filter=gpg diff=gpg" >> .gitattributes
+echo "*.asc filter=gpg diff=gpg" >> .gitattributes
+#+end_src
+
+and
+
+#+begin_src shell :exports code
+git config --global diff.gpg.textconv "gpg --no-tty --decrypt"
+#+end_src
+

@@ -94,7 +94,7 @@ Last but not final, I had to create the publisher. I added a custom function to 
 #+end_src
 
 And finally I added the project to the list
-#+begin_src emacs-lisp
+#+begin_src emacs-lisp :exports code
 
   (setq org-publish-project-alist '(("mrbussy.github.io (new)" ;; my blog project (just a name)
                                      ;; Path to org files.

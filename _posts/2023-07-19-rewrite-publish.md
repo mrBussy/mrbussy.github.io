@@ -1,16 +1,16 @@
 
 # Table of Contents
 
-1.  [Why](#orga5179e9)
-2.  [Solution](#orgc4d034f)
-    1.  [The translator](#orga76cd42)
-    2.  [The export backend](#org7d9e453)
-    3.  [Create the publish project](#org21d7c02)
-    4.  [Save the configuration](#org30268a4)
+1.  [Why](#org9bbb45d)
+2.  [Solution](#org40ad36d)
+    1.  [The translator](#org00675eb)
+    2.  [The export backend](#org6d4eb81)
+    3.  [Create the publish project](#org4eed853)
+    4.  [Save the configuration](#org0d798d7)
 
 
 
-<a id="orga5179e9"></a>
+<a id="org9bbb45d"></a>
 
 # Why
 
@@ -20,7 +20,7 @@ I write posts in `org-mode`. For me that is a well known format that I like to u
 I used a special function as a wrapper around `org-md-export-as-markdown` function. This is to get the files in the right directory. Nothing more. It used the earlier mentioned function to convert the content to markdown.  
 
 
-<a id="orgc4d034f"></a>
+<a id="org40ad36d"></a>
 
 # Solution
 
@@ -31,7 +31,7 @@ The solution I went for was a bit of a search.
 3.  I wrote a custom backend to convert. This was the right solution.
 
 
-<a id="orga76cd42"></a>
+<a id="org00675eb"></a>
 
 ## The translator
 
@@ -54,7 +54,7 @@ channel."
 What this function does is quit simple: Take the source block and add a formatter around it. That's it.  
 
 
-<a id="org7d9e453"></a>
+<a id="org6d4eb81"></a>
 
 ## The export backend
 
@@ -69,7 +69,7 @@ Next we had to write a backend that would invoke the translator. This was also n
 This function will expose a new backend that will translate the source blocks. After that it will use the default `md` backend to further perform magic.  
 
 
-<a id="org21d7c02"></a>
+<a id="org4eed853"></a>
 
 ## Create the publish project
 
@@ -146,7 +146,7 @@ And finally I added the project to the list
 And with this my function is ready.  
 
 
-<a id="org30268a4"></a>
+<a id="org0d798d7"></a>
 
 ## Save the configuration
 

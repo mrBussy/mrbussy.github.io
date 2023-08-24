@@ -1,12 +1,12 @@
 
 # Table of Contents
 
-1.  [Missing functionality](#org4df617d)
-2.  [Installation](#org39ee44e)
+1.  [Missing functionality](#orgc35d0f0)
+2.  [Installation](#org30b1b36)
 
 
 
-<a id="org4df617d"></a>
+<a id="orgc35d0f0"></a>
 
 # Missing functionality
 
@@ -15,7 +15,7 @@ When writing large text, sometimes you just want to annotate parts of the text t
 Some simple search revealed to me that the package was renamed to [org-remark](https://github.com/nobiot/org-remark). So just loading it with the right name would solve the issue. Combined with some simple bindings made it complete and ready again for usage.  
 
 
-<a id="org39ee44e"></a>
+<a id="org30b1b36"></a>
 
 # Installation
 
