@@ -1,0 +1,51 @@
+
+# Table of Contents
+
+1.  [Situation](#org6168cb8)
+2.  [Steps to reproduce](#org235641e)
+3.  [Solution](#org198de63)
+
+
+
+<a id="org6168cb8"></a>
+
+# Situation
+
+Today I faced an issue that my notes of today and yesterday could not be stored. When storing the file, `undo-tree` reported to have finished writing. However, `emacs` does not seem to get the control back. It seems to *hang*. This is strange behaviour.  
+
+
+<a id="org235641e"></a>
+
+# Steps to reproduce
+
+I tried first to reset `emacs`. This did not change the behaviour. But since the store of a file did not succeed, changes where not stored correctly (to start with). The next try wat to change the `debug-on-quit` variable to true. This triggers the debugger when hitting `C-g`. Doing this reviled to me an issue with `GPG`. As I could not find out what was going on, I started my search.  
+
+**NOTE**: I did install a package this morning using `brew`. This led to some updated packages as well.  
+
+
+<a id="org198de63"></a>
+
+# Solution
+
+After searching some pages on internet, I came by a post on [reddit.com](https://reddit.com) that contained a clue: <https://www.reddit.com/r/emacs/comments/137r7j7/gnupg_241_encryption_issues_with_emacs_orgmode/>. It seems that gnuGP had an update that could be the issue.  
+
+I validated my version:  
+
+```shell
+gpg --version
+
+```
+
+The result was that I installed GPG 2.4.3. According to the page provided, this version contained an issue. Looking at the [git](https://dev.gnupg.org/rG2f872fa68c6576724b9dabee9fb0844266f55d0d) of `gnupg` I found that the fix is solved in version 2.6. As this is not yet available, it was only possible to revert the version.  
+
+I used the following procedure to revert.  
+
+```shell
+brew tap-new --no-git my/local
+brew extract --version 2.4.0 gnupg my/local
+brew install my/local/gnupg@2.4.0
+
+```
+
+And this solved all my issues.  
+
