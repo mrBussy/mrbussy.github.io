@@ -1,0 +1,36 @@
+#+title: Emacs 29.1 is slow on a macOS
+#+filetags: :emacs:slow:macos:emacsmac:update:
+#+options: *:t -:t \n:t f:t tags:t
+
+* Situation
+Last week I updated my Emacs installation on my macOS to the latest version 29.1. This resulted in a couple of issues I had to solve:
+1. My org-mode update was incompatible with version 29.1
+2. My Emacs became laggy
+
+
+To start with teh first issue, I quickly became aware that org-mode shipped with the ~Emacsformac~ version was having issues. So I downgraded to a previous org-mode which solved the issue.
+
+Issue number 2 was a more difficult issue.
+
+* Symptoms
+When I upgraded to Emacs 29.1 using =brew= I noticed that my Emacs became slow. And slow in this case means that it was lagging. Not always, not every time, but enough to annoy me. When I wanted to mark a task ~DONE~ for example, this would take a lot of time. And then I really am talking about /seconds/ (yes, multiple)!
+
+This is off course really annoying, so I started the famous Google search. At first, the symptoms where vague and difficult to find. But after searching a while, [[https://www.reddit.com/r/emacs/comments/15o1vke/emacs_29_slowness/][Reddit]] gave me an hint on where to look. More people where having the issue.
+
+* Solution
+After reading thru the comments on [[https://www.reddit.com/r/emacs/comments/15o1vke/emacs_29_slowness/][Reddit]] I was triggered by the comment to install a different version of Emacs.
+
+So I started by uninstalling the version I had (https://emacsforosx.com/):
+#+begin_src shell
+brew uninstall emacs
+#+end_src
+
+After that I installed [[https://github.com/d12frosted/homebrew-emacs-plus][Emacs-Plus]] (29.1) using =homebrew=:
+#+begin_src shell
+  brew tap d12frosted/emacs-plus
+  brew install emacs-plus --with-ctags --with-dbus --with-mailutils --with-imagemagick
+#+end_src
+
+Using the extra options to make it workable for me.
+
+Behold, this solved my issue!
