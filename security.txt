@@ -1,0 +1,29 @@
+---
+layout: none
+permalink: .well-known/security.txt
+---
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@mrbuss.eu
+Expires: 2024-12-30T23:00:00.000Z
+Encryption: openpgp4fpr:112AF5458E55B1D08CA30537923EAC2A4EAB7F6B
+Preferred-Languages: en, nl
+Canonical: https://mrbussy.eu/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE1WrUvQzUIWr3xh6SrydlYJFgmjQFAmVCJBwACgkQrydlYJFg
+mjQnXw/6A2a/kX0IlJTdxUKp42cAfQkSBegPXSR4jFzs69SyAPOw5v3i/JhLaJht
++/+nBmzSP5+hFwlPs8O5uANECA8cRYEg6HbVgLf3uB3+UPdMtTanIODdKDF2pMuu
+YtXtmIlmnmwb2RJsEuPERvojee+gVOEozwa7K682ri6TDiiLIkSJ2RAOMDMRzFsS
+G2tjgrKOhKkjzMo3AvFWL0/644xBvFD3z9hKs2n/dzMX0vMElp/MsOlePl3xty+f
+VzULeg6l+GWQmhZfxyXdnrulPaW7qu0JTvGtaExhAtS4XzOxKkjgPq+nSeo2IdQ1
+kK7GTovEmokkfiTh0aXQGG2SGeEi7nF4zey6JlbC3NR+/a+EG0PCyJqFZqpgaBof
+KZo0NVhOykfI77XU2y7Pi4Ss7hzrBQIf3aZKXJ0BP33g28JFpqmM6BS5vnpv46dd
+L+1K2QAwCA9xj74hCa/RJgMvTbrfq9boqYk+eJo3P65bWLkMYv7g7yH4+YqPuC2E
+gyycH5e42qLNOB1KlaeWSjmnVGg1/bdxQ5OLMuLF8kMamILhU9Jlc/pQRsWLNpH6
+PQWKTkA/aOaNWdimC3N4brwFHPWFjD9Wgtz+xwBbmQHZzDg7xWuCLpZ6o8E6eSqu
+zlYroqVhokUs88pebQl5YgRxLRlhP6wETYRWdH7rAGKT8PNGdAo=
+=cviy
+-----END PGP SIGNATURE-----
