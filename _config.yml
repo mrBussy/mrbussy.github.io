@@ -50,7 +50,7 @@ listen_for_clients_preferred_style: true # false (default) or true
 
 footer: 'follow me on <a href="https://fosstodon.org/@mrbussy">Fosstadon</a>, <a href="https://toot.community/@rudi">toot.community</a> or <a href="https://feddit.nl/u/mrbussy">Feddit</a>'
 
-google_analytics: UA-NNNNNNNN-N
+#google_analytics: UA-NNNNNNNN-N
 
 plugins:
   - jekyll-feed
