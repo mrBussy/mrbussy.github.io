@@ -6,7 +6,7 @@ permalink: .well-known/security.txt
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Contact: mailto:security@mrbuss.eu
+Contact: mailto:security@mrbussy.eu
 Expires: 2024-12-30T23:00:00.000Z
 Encryption: openpgp4fpr:112AF5458E55B1D08CA30537923EAC2A4EAB7F6B
 Preferred-Languages: en, nl
