@@ -6,7 +6,21 @@ permalink: /about/
 # About
 This site contains my thoughts and idea's. This can be related to #emacs, but also other scribbles. Sometimes it will just be small snippets to perform some micro blogging. Other times, I could perhaps write bigger postings.
 
-## Improvements
+# Curated list of online presence
+
+## Socials / Contact
+
+- E-mail: [r.middel@mrbussy.eu](mailto://r.middel@mrbussy.eu "My mail address") [[GPG](/assets/key.asc "My GPG key")]
+- Fosstodon: [@mrbussy@fosstodon.org](https://fosstodon.org/@mrbussy "Fosstodon account")
+- Toot.community: [@rudi@toot.community](https://fosstodon.org/@mrbussy "Mastodon account")
+- Pixelfed: [@mrBussy@pxlmo.com](https://pxlmo.com/mrbussy "My Pixelfed account")
+- Feddit.nl: [@mrbussy@feddit.nl](https://feddit.nl/u/mrbussy "My feddit account")
+
+## Code
+
+- Github: [github.com/mrBussy](https://github.com/mrbussy "My Github account")
+
+# Improvements
 As I do not have a lot of time left, this site is far from complete. Things I would like to add:
 - [ ] Tag list
 - [ ] Date navigator on the page
