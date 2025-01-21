@@ -10,7 +10,7 @@ This site contains my thoughts and idea's. This can be related to #emacs, but al
 
 ## Socials / Contact
 
-- E-mail: [r.middel@mrbussy.eu](mailto://r.middel@mrbussy.eu "My mail address") [[GPG](/assets/key.asc "My GPG key")]
+- E-mail: [r.middel@mrbussy.eu](mailto:r.middel@mrbussy.eu "My mail address") [[GPG](/assets/key.asc "My GPG key")]
 - Fosstodon: [@mrbussy@fosstodon.org](https://fosstodon.org/@mrbussy "Fosstodon account")
 - Toot.community: [@rudi@toot.community](https://fosstodon.org/@mrbussy "Mastodon account")
 - Pixelfed: [@mrBussy@pxlmo.com](https://pxlmo.com/mrbussy "My Pixelfed account")
@@ -20,17 +20,8 @@ This site contains my thoughts and idea's. This can be related to #emacs, but al
 
 - Github: [github.com/mrBussy](https://github.com/mrbussy "My Github account")
 
-# Improvements
-As I do not have a lot of time left, this site is far from complete. Things I would like to add:
-- [ ] Tag list
-- [ ] Date navigator on the page
-- [ ] More content
-- [ ] Add better support for code blocks 
-
 # Jekyll theme
 The site is build using [jekyll][jekyll-organization] pages for [github pages](https://pages.github.com/).
-
-
 The site is using the [b2a3e8/jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console "Link to the console theme") theme.
 
 [jekyll-organization]: https://github.com/jekyll
