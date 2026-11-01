@@ -23,7 +23,7 @@ gem "jekyll-theme-console"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   #gem "jekyll-feed", "~> 0.15.1"
-  gem "github-pages", "= 228"
+  gem "github-pages", "~> 232"
   #gem "rouge", "3.26.0"
 #  gem "jekyll-seo-tag", "~> 2.7.1"
 end
@@ -42,6 +42,7 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # kramdown v2 ships without the gfm parser by default. If you're using
 # kramdown v1, comment out this line.
-gem "kramdown-parser-gfm"
+gem "kramdown", "~> 2.4.0"
+gem "kramdown-parser-gfm", "~> 1.1.0"
 
 gem "webrick"
